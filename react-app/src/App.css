@@ -40,7 +40,7 @@
   padding-right: 20px;
   padding-left: 20px;
   background-repeat: 5px;
-  background-color: #0085FF;
+  background-color: rgba(0, 133, 255, 0.1);
   border-radius: 5px;
 }
 
@@ -57,7 +57,7 @@
   flex-grow: 0.66;
   flex-direction: column;
   margin-right: 15px;
-  background-color: beige;
+  
 }
 
 .card2-content {
@@ -90,6 +90,8 @@
 
 .tis-items-container {
   display: flex;
+  max-width: 500px;
+  margin-left: 50px;
 }
 
 .tis-item {
@@ -131,7 +133,7 @@
 .card2-title {
   font-size: 36px;
   font-weight: 700;
-  
+  text-align: left;
 }
 
 .card2-paragraph {
@@ -149,16 +151,26 @@
   padding-bottom: 20px;
   margin-top: 25px;
   border-radius: 7px;
+  background-color: rgba(0, 95, 205, 1);
 }
 
 .card2-input {
-  width: 300px;
+  width: 280px;
   padding: 10px;
   border: none;
   margin-top: 20px;
   border-radius: 5px;
 }
 
+.ad-icon {
+  font-size: 15px;
+  color: rgba(0, 133, 255, 1);
+  background-color: rgba(0, 133, 255, 0.25);
+  padding: 5px;
+  border-radius: 3px;
+  float: left;
+  margin-left: 35px;
+}
 
 .footer {
   height: 100px;
@@ -166,6 +178,7 @@
   color: white;
   flex-grow: 0;
   padding: 15px;
+  margin-top: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
