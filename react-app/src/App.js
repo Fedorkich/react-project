@@ -38,7 +38,7 @@ function App() {
               <p className="ad-item-paragraph">With funds in your account as soon as the next business day*, you can get moving on your big plans</p>
             </div>
             <div className="ad-item-container ad-item2-container">
-            <i className="fa fa-clock-o ad-icon" />
+              <i className="fa fa-clock-o ad-icon" />
               <p className="ad-item-title">We consider all types of credit history </p>
               <p className="ad-item-paragraph">Just because your credit score may be "not-so-great" doesn't mean you can't get approved.</p>
             </div>
@@ -49,8 +49,13 @@ function App() {
           <div className="card2-item card2-paragraph">
             Our pre-filled form lets you request a loan faster, so you can get on with your day.
           </div>
-          <input />
-          <button className="card2-item header-link header-link3">Get Started</button>
+          <div>
+            <input />
+          </div>
+          <div>
+            <button className="card2-button header-link3">Get Started</button>
+
+          </div>
         </div>
       </div>
       <footer className="footer">

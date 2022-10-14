@@ -34,11 +34,11 @@
 }
 
 .header-link3 {
-  color: #0000ff;
+  color: Blue 10%;
   padding-right: 20px;
   padding-left: 20px;
   background-repeat: 5px;
-  background-color: aquamarine;
+  background-color: #0085FF;
   border-radius: 5px;
 }
 
@@ -64,6 +64,9 @@
   background-color: #282c34;
   border-radius: 20px;
   overflow-wrap: break-word;
+  padding-top: 200px;
+  box-sizing: border-box;
+  
 }
 
 .tis-container {
@@ -120,6 +123,27 @@
 
 .ad-item-paragraph {
   font-size: 16px;
+}
+
+
+.card2-title {
+  font-size: 36px;
+  font-weight: 700;
+  
+}
+
+.card2-paragraph {
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card2-button {
+  border: none;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 15px;
 }
 
 
