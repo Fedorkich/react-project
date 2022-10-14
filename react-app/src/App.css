@@ -106,12 +106,10 @@
 .ad-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
 }
 
 .ad-item-container {
   background-color: transparent;
-  border: 1px solid blue;
   flex-grow: 1;
 }
 
@@ -179,6 +177,23 @@
   flex-grow: 0;
   padding: 15px;
   margin-top: 50px;
+}
+
+
+@media screen and (max-width:500px) {
+  .content{
+    flex-direction: column;
+  }
+  .card1-content {
+    flex-grow: 1;
+    order: 2;
+  }
+
+  .card2-content {
+    flex-grow: 1;
+    order: 1;
+  }
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
