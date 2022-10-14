@@ -34,10 +34,14 @@ function App() {
           <div className="ad-container">
             <div className="ad-item-container">
               <i className="fa fa-clock-o ad-icon" />
-              <p></p>
-              <p></p>
+              <p className="ad-item-title">Money as soon as next business day</p>
+              <p className="ad-item-paragraph">With funds in your account as soon as the next business day*, you can get moving on your big plans</p>
             </div>
-            <div className="ad-item-container"></div>
+            <div className="ad-item-container ad-item2-container">
+            <i className="fa fa-clock-o ad-icon" />
+              <p className="ad-item-title">We consider all types of credit history </p>
+              <p className="ad-item-paragraph">Just because your credit score may be "not-so-great" doesn't mean you can't get approved.</p>
+            </div>
           </div>
         </div>
         <div className="card2-content">

@@ -73,12 +73,54 @@
   border-radius: 20px;
   min-height: 400px;
   margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.tis-paragraph {
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 600px;
+}
+
+.tis-items-container {
+  display: flex;
+}
+
+.tis-item {
+  flex-grow: 1;
+  font-size: 16px;
 }
 
 .card2-item  {
   width: auto;
 }
 
+.ad-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.ad-item-container {
+  background-color: transparent;
+  border: 1px solid blue;
+  flex-grow: 1;
+}
+
+.ad-item2-container {
+  margin-left: 10px;
+}
+
+.ad-item-title {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ad-item-paragraph {
+  font-size: 16px;
+}
 
 
 
