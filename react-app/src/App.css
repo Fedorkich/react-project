@@ -47,19 +47,23 @@
   display: flex;
   background-color: white;
   flex-grow: 1;
+  padding: 15px;
 }
 
 .card1-content {
   display: flex;
   flex-grow: 0.66;
   flex-direction: column;
-  margin-left: 15px;
+  margin-right: 15px;
   background-color: beige;
 }
 
 .card2-content {
+  display: block;
   flex-grow: 0.34;
   background-color: #282c34;
+  border-radius: 20px;
+  overflow-wrap: break-word;
 }
 
 .tis-container {
@@ -67,11 +71,23 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
-  height: 400px;
+  min-height: 400px;
   margin-bottom: 10px;
 }
 
+.card2-item  {
+  width: auto;
+}
 
+
+
+
+.footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  flex-grow: 0;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
