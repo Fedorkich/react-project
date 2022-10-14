@@ -46,11 +46,11 @@ function App() {
         </div>
         <div className="card2-content">
           <div className="card2-item card2-title">Checkout faster</div>
-          <div className="card2-item card2-paragraph">
+          <div className="card2-paragraph">
             Our pre-filled form lets you request a loan faster, so you can get on with your day.
           </div>
-          <div>
-            <input />
+          <div className="input-wrapper">
+            <input className="card2-input" placeholder="Email Addres"/>
           </div>
           <div>
             <button className="card2-button header-link3">Get Started</button>
